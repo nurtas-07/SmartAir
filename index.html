@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="SMARTAIR — компактный мониторинг качества и безопасности воздуха с мгновенными уведомлениями в Telegram." />
+  <title>SMARTAIR — умный воздух под контролем</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <nav class="nav-island" aria-label="Основная навигация">
+      <a class="brand" href="#top">
+        <img src="logo.jpeg" width="44" height="44" alt="" class="brand-mark" />
+        <span class="brand-name">SMART<span class="brand-accent">AIR</span></span>
+      </a>
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+      </button>
+      <div class="nav-links" id="nav-menu">
+        <a href="#features">Возможности</a>
+        <a href="#how">Как работает</a>
+        <a href="#sensors">Датчики</a>
+        <a href="#cta" class="nav-cta">Заказать</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Мониторинг воздуха 24/7</p>
+          <h1>Чистый воздух —<br />спокойствие дома</h1>
+          <p class="hero-lead">
+            SMARTAIR — компактная и доступная система, которая в реальном времени отслеживает микроклимат,
+            фиксирует опасные газы и мгновенно отправляет экстренные уведомления владельцу в Telegram.
+          </p>
+          <div class="hero-actions">
+            <a href="#cta" class="btn btn-primary">
+              Получить SMARTAIR
+              <span class="btn-icon" aria-hidden="true">↗</span>
+            </a>
+            <a href="#how" class="btn btn-ghost">Как это работает</a>
+          </div>
+          <ul class="hero-stats">
+            <li><strong>Real-time</strong><span>непрерывный контроль</span></li>
+            <li><strong>Telegram</strong><span>мгновенные алерты</span></li>
+            <li><strong>Компактно</strong><span>для дома и офиса</span></li>
+          </ul>
+        </div>
+        <div class="hero-visual reveal" data-delay="120">
+          <div class="bezel bezel-hero">
+            <div class="bezel-inner hero-device-wrap">
+              <img
+                src="photo.jpeg"
+                alt="Станция мониторинга качества воздуха SMARTAIR"
+                class="hero-device"
+                width="640"
+                height="480"
+                onerror="this.onerror=null;this.src='logo.jpeg';this.classList.add('hero-device--fallback');"
+              />
+              <div class="hero-badge">
+                <span class="pulse"></span>
+                Система онлайн
+              </div>
+            </div>
+          </div>
+          <div class="hero-float card-float">
+            <span class="card-float-label">CO · газы</span>
+            <span class="card-float-value">контроль</span>
+          </div>
+          <div class="hero-float card-float card-float--2">
+            <span class="card-float-label">25.6°C · 45%</span>
+            <span class="card-float-value">микроклимат</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust">
+      <div class="container trust-inner reveal">
+        <img src="logo.jpeg" alt="SMARTAIR — Arduino и Telegram Bot" class="trust-logo" width="120" height="120" />
+        <p>Arduino-платформа и Telegram-бот: измеряет, отслеживает, предупреждает и помогает улучшать качество воздуха в помещении.</p>
+      </div>
+    </section>
+
+    <section id="features" class="section features">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Почему SMARTAIR</p>
+          <h2>Безопасность воздуха без сложной настройки</h2>
+        </div>
+        <div class="bento reveal" data-delay="80">
+          <article class="bento-item bento-large">
+            <div class="bezel">
+              <div class="bezel-inner bento-card">
+                <h3>Экстренные уведомления</h3>
+                <p>При превышении порога газов или резком ухудшении микроклимата бот сразу шлёт тревогу на смартфон — вы узнаёте о риске, пока его можно предотвратить.</p>
+              </div>
+            </div>
+          </article>
+          <article class="bento-item">
+            <div class="bezel">
+              <div class="bezel-inner bento-card">
+                <h3>Telegram под рукой</h3>
+                <p>Команда /status — отчёт по температуре, влажности и датчикам. Удобные кнопки, без отдельного приложения.</p>
+              </div>
+            </div>
+          </article>
+          <article class="bento-item">
+            <div class="bezel">
+              <div class="bezel-inner bento-card">
+                <h3>Компактный корпус</h3>
+                <p>Устройство занимает минимум места на полке или столе и подходит для квартиры, детской, кабинета или небольшого офиса.</p>
+              </div>
+            </div>
+          </article>
+          <article class="bento-item bento-wide">
+            <div class="bezel">
+              <div class="bezel-inner bento-card bento-card--accent">
+                <h3>Доступная умная система</h3>
+                <p>Открытая электроника и проверенные датчики дают профессиональный мониторинг без переплаты за закрытые экосистемы.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="section how">
+      <div class="container how-grid">
+        <div class="how-copy reveal">
+          <p class="eyebrow">Как это работает</p>
+          <h2>От датчика до сообщения за секунды</h2>
+          <p class="section-lead">SMARTAIR подключается к Wi‑Fi, считывает показания и через защищённый канал общается с Telegram-ботом. Вы получаете статус по запросу и автоматические тревоги при опасных значениях.</p>
+          <ol class="steps">
+            <li><span>01</span> Установите станцию в помещении с устойчивым Wi‑Fi.</li>
+            <li><span>02</span> Запустите бота и нажмите /start — система активируется.</li>
+            <li><span>03</span> Получайте отчёты и мгновенные оповещения при риске.</li>
+          </ol>
+        </div>
+        <div class="how-panel reveal" data-delay="100">
+          <div class="bezel">
+            <div class="bezel-inner telegram-mock">
+              <div class="telegram-header">
+                <span>SMART AIR Bot</span>
+                <span class="tg-dot"></span>
+              </div>
+              <div class="telegram-msg">
+                <p class="tg-title">📊 ОТЧЁТ SMART AIR</p>
+                <p>🌡 Температура: <strong>24.1°C</strong></p>
+                <p>💧 Влажность: <strong>46.0%</strong></p>
+                <p>💨 MQ135 (газы): <strong>412</strong></p>
+                <p>🌫 MQ7 (CO): <strong>89</strong></p>
+                <p class="tg-ok">✅ Система работает стабильно</p>
+              </div>
+              <div class="telegram-alert">
+                🚨 <strong>ТРЕВОГА!</strong> Превышен порог газов. Проверьте помещение.
+              </div>
+              <div class="telegram-keys">
+                <span>/status</span>
+                <span>/start</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sensors" class="section sensors">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Что измеряем</p>
+          <h2>Полная картина микроклимата</h2>
+        </div>
+        <div class="sensor-grid reveal" data-delay="60">
+          <article class="sensor-card">
+            <h3>DHT22</h3>
+            <p>Температура и относительная влажность — основа комфорта и профилактики плесени.</p>
+          </article>
+          <article class="sensor-card">
+            <h3>MQ135</h3>
+            <p>Широкий спектр летучих органических соединений и общее качество воздуха в помещении.</p>
+          </article>
+          <article class="sensor-card">
+            <h3>MQ7</h3>
+            <p>Мониторинг оксида углерода (CO) — критично для безопасности при отоплении и гаражах.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="cta" class="section cta">
+      <div class="container">
+        <div class="bezel cta-shell reveal">
+          <div class="bezel-inner cta-inner">
+            <div class="cta-copy">
+              <p class="eyebrow eyebrow--light">Готовы к чистому воздуху?</p>
+              <h2>Закажите SMARTAIR для дома или бизнеса</h2>
+              <p>Оставьте заявку — мы свяжемся с вами, подберём комплектацию и поможем подключить Telegram-бот.</p>
+            </div>
+            <form class="cta-form" action="#" method="post">
+              <label class="sr-only" for="name">Имя</label>
+              <input id="name" name="name" type="text" placeholder="Ваше имя" required autocomplete="name" />
+              <label class="sr-only" for="contact">Telegram или телефон</label>
+              <input id="contact" name="contact" type="text" placeholder="Telegram @username или телефон" required />
+              <button type="submit" class="btn btn-primary btn-block">
+                Отправить заявку
+                <span class="btn-icon" aria-hidden="true">↗</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand brand--footer" href="#top">
+        <img src="logo.jpeg" width="36" height="36" alt="" class="brand-mark" />
+        <span class="brand-name">SMART<span class="brand-accent">AIR</span></span>
+      </a>
+      <p class="footer-tagline">Таза ауа — денсаулық болашақ · Чистый воздух — здоровое будущее</p>
+      <p class="footer-copy">© <span id="year"></span> SMARTAIR. Мониторинг воздуха и безопасности.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
